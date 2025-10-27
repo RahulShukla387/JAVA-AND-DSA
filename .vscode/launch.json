@@ -1,0 +1,73 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Implementation",
+      "request": "launch",
+      "mainClass": "Implementation",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
+      "name": "DoubleLinkdlst",
+      "request": "launch",
+      "mainClass": "DoubleLinkdlst",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
+      "name": "linkdlstSearch",
+      "request": "launch",
+      "mainClass": "linkdlstSearch",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
+      "name": "fabnocci",
+      "request": "launch",
+      "mainClass": "fabnocci",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
+      "name": "map",
+      "request": "launch",
+      "mainClass": "HashingAndHashMapping.map",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
+      "name": "mergeSort",
+      "request": "launch",
+      "mainClass": "mergeSort",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
+      "name": "printNo",
+      "request": "launch",
+      "mainClass": "printNo",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
