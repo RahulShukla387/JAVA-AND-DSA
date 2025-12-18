@@ -16,37 +16,52 @@ public class practiceSet {
         }
         print(array);
     }
-    public static void selection(int array[]){
-        for(int i=0; i<array.length-1; i++){
-            int min = i;
-            for(int j= i+1; j<array.length; j++){
-                if(array[min]< array[j]){
-                   min = j;
-                }
-            }
-            System.out.println(min);
-            int temp = array[min];
-            array[min] = array[i];
-            array[i] = temp;
-        }
-        print(array);
-    }
-    public static void insertion(int array[]){
-        for(int i=0; i< array.length-1; i++){
-            for(int j= i+1; j>0; j-- ){
-                if(array[j-1]< array[j]){
-                    int temp = array[j];
-                    array[j] = array[j-1];
-                    array[j-1] = temp;
+    public static void insertionSortPractice(int[] arr ){
+        int n = arr.length;
+        //assuming first element as sorted.
+        for(int i=0; i< n-1; i++){
+            for(int j= i+1; j>0 ; j--){
+                if(arr[j] < arr[j-1]){
+                    int temp = arr[j];
+                    arr[j] = arr[j-1];
+                    arr[j-1] = temp;
                 }
             }
         }
-        print(array);
+        print(arr);
     }
+    // public static void selection(int array[]){
+    //     for(int i=0; i<array.length-1; i++){
+    //         int min = i;
+    //         for(int j= i+1; j<array.length; j++){
+    //             if(array[min]< array[j]){
+    //                min = j;
+    //             }
+    //         }
+    //         System.out.println(min);
+    //         int temp = array[min];
+    //         array[min] = array[i];
+    //         array[i] = temp;
+    //     }
+    //     print(array);
+    // }
+    // public static void insertion(int array[]){
+    //     for(int i=0; i< array.length-1; i++){
+    //         for(int j= i+1; j>0; j-- ){
+    //             if(array[j-1]< array[j]){
+    //                 int temp = array[j];
+    //                 array[j] = array[j-1];
+    //                 array[j-1] = temp;
+    //             }
+    //         }
+    //     }
+    //     print(array);
+    // }
     public static void main(String[] args) {
-        int array[] = {3,6,2,1,8,7,4,5,3,1}; 
+        int array[] = {9,4,3,2,5,7}; 
        // bubble(array);
        //selection(array);
-       insertion(array);
+    //    insertion(array);
+         insertionSortPractice(array);
     }
 }

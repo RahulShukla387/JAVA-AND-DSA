@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IndianCoins",
+      "request": "launch",
+      "mainClass": "IndianCoins",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
+      "name": "bit",
+      "request": "launch",
+      "mainClass": "bit",
+      "projectName": "JAVA programming language_78de4b2c"
+    },
+    {
+      "type": "java",
       "name": "Implementation",
       "request": "launch",
       "mainClass": "Implementation",
